@@ -1,5 +1,5 @@
 # kindle-weather-clock
-a toy weather clock running on jailbreak kindle
+a toy weather clock running on jailbreak kindle / gift for my girlfriend.
 
 Tested on Kindle Touch 4. 
 
@@ -24,7 +24,8 @@ maybe you need libz.so.1.2.8 installed in this dir
 
 replace id with your city id.
 
-'''tcl
+```java
+
 proc ::weather::refresh {} {
 	global w_current
 	global w_5day3hour
@@ -32,7 +33,7 @@ proc ::weather::refresh {} {
 	set url_days "http://api.openweathermap.org/data/2.5/forecast?id=USE-YOUR-CITY"
 	set url_now "http://api.openweathermap.org/data/2.5/weather?id=USE-YOUR-CITY"
 	set url_ndays "http://api.openweathermap.org/data/2.5/forecast/daily?id=USE-YOUR-CITY"
-'''
+```
 
 ## Using
 
