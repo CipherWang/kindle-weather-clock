@@ -1,0 +1,5 @@
+{
+	"items": [
+		{"name": "<Love Clock>", "priority": 1, "action": "src/myclock.sh"}
+	]
+}
